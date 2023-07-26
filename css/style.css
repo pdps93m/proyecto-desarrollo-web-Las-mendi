@@ -1,18 +1,33 @@
-nav {
-  background-color: black; }
-  nav .menu {
-    list-style: none;
-    width: 500px; }
-    nav .menu__item {
-      font-size: 3rem; }
-      nav .menu__item__link {
-        text-decoration: none;
-        color: white; }
-    nav .menu__item:hover {
-      background-color: red; }
 
-a {
-  font-size: 36px; }
+body{
+  background-color: greenyellow;
+}
 
-aside {
-  font-size: 36px; }
+.container-mt-5 {
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+}
+
+.logo {
+  width: 150px;
+  object-fit: cover;
+}
+
+.bg-nav {
+  background-color:coral;
+}
+
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: red;
+}

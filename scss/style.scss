@@ -43,6 +43,16 @@ aside {
 @import "./utilities/maps";
 @import "./utilities/mixins";
 
+// import components
+@import "./components/buttons";
+@import "./components/grilla";
+
 // import views
 
 @import "../views/home";
+@import "../views/conocenos";
+@import "../views/contacto";
+@import "../views/mediosdepago";
+@import "../views/mercadocircular";
+@import "../views/preguntas";
+@import "../views/productos";

@@ -1,0 +1,17 @@
+# ignora archivos del sistema mac
+.DS_store
+
+# ignora la carpeta img_cache
+img_cache
+
+# ignora todos los archivos de texto
+*.txt
+
+#ignora el archivo background.jpg
+background.jpg
+
+node_modules/
+
+.vscode/
+
+.DS_Store
