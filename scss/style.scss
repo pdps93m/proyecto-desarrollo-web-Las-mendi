@@ -1,38 +1,7 @@
 
 //** sintaxis scss con bem **
 
-nav {
-    background-color: black;
-    .menu {
-        list-style: none;
-        width: 500px;
-        &__item {
-            font-size: 3rem;
-            &__link {
-                text-decoration: none;
-                color: white;
-            }
-        }
-        &__item:hover {
-            background-color: red;
-        }      
-    }
-}
 
-// variables
-$font-medium: 36px;
-$bg-principal: black;
-$max-width: 1288px;
-$font-principal: "monserrat", sans-serif;
-
-
-a {
-    font-size: $font-medium;
-}
- 
-aside {
-    font-size: $font-medium;
-}
 
 
 // imports
