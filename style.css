@@ -1,0 +1,138 @@
+ /** Estilos **/
+ ::after,
+ ::before,
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: content-box;
+ }
+
+ html {
+   font-size: 62.5%;
+ }
+
+ img {
+   width: 100%;
+ }
+
+
+ body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-image: url(../mi-repositorio/img/bastadesilencio.jpg);
+   background-position: center;
+ }
+
+ /** estilos de header **/
+
+ #bannerlasmendi {
+   border-left: #1D6F55;
+   height: 200px;
+   width: 200px;
+ }
+
+ /** estilos de nav **/
+
+
+ ul {
+   list-style: disc;
+   color: aquamarine;
+   text-decoration: none;
+   font-size: xx-large;
+ }
+
+ ul a {
+   text-decoration: none;
+ }
+
+ #conocenos {
+   color: #1D6F55;
+ }
+
+ #contacto {
+   color: #1D6F55;
+ }
+
+ #productos {
+   color: #1D6F55;
+ }
+
+ #preguntas {
+   color: #1D6F55;
+ }
+
+ #mediosdepago {
+   color: #1D6F55;
+ }
+
+ #mercadocircular {
+   color: #1D6F55;
+ }
+
+
+
+
+ /** estilos article **/
+
+ #bastadesilencio {
+   height: 200px;
+   width: 200px;
+ }
+
+ #imagentotebags {
+   height: 200px;
+   width: 200px;
+ }
+
+ #imagenbusogris {
+   height: 200px;
+   width: 200px;
+ }
+
+ /**lista redes**/
+
+ #listaredes {
+   font-size: xx-large;
+   list-style-type: disc;
+   text-decoration: solid;
+ }
+
+ #facebook {
+   color: #1D6F55;
+ }
+
+ #instagram {
+   color: #1D6F55;
+ }
+
+ #whatsapp {
+   color: #1D6F55
+ }
+
+ /**estilo footer**/
+
+ #copyright {
+   font-size: xx-large;
+ }
+
+ #section_cards {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+
+ #nav_list {
+   text-align: center;
+
+ }
+
+ .nav_list_text {
+   text-align: center;
+   list-style-type: none;
+ }
+
+ .card-img-top {
+   height: 50px;
+   width: 50px;
+ }
