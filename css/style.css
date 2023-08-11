@@ -1,23 +1,144 @@
+/* Estilos de body */
 
 body{
   background-color: greenyellow;
 }
 
-.container-mt-5 {
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-  width: 200px;
+
+/* Fin estilos de body*/
+
+/* Estilos nav */
+.nav {
+ align-items: none;
 }
+
+.navbar-expand-lg {
+
+}
+.navbar{
+  align-items: none;
+
+}
+
+.container {
+
+}
+
+.navbar-brand {
+
+}
+
+/* Fin estilos de nav*/
+
+/* Estilos de div */
+
+.container-fluid {
+  align-self:none;
+   
+   }
+
+   
+
+   /* Estilos h1 */
+
+   /* Fin de estilos h1 */
+
+   /* Estilos h2 */
+
+   /* Fin de estilos h2 */
+
+   /* Estilos h3 */
+
+   /* Fin de estilos h3 */
+
+   /*Estilos de footer*/
+
+   /* Fin estilos de footer*/
+
+   /* Estilos de p */
+
+   /* Fin estilos de p */
+
+   /* Estios de ul */
+
+   /* Estilos section */
+
+   /* Fin estilo section */
+
+   /* Estilo de fieldset */
+
+   /* Fin estilo fieldset */
+
+   /* Estilos de label */
+
+   /* Fin estilos label */
+   
+   /* Estilo placeholder (reever si label,placeholder y eso no van dentro de fieldset) */
+
+   /* Estilo table */
+
+   /* Fin estilos de table */
+
+   /* Estilos title */
+
+
+
+
+
+
+   /* Fin de estilos ul */
+
+   /* Estilos de li */
+
+   /* Fin de estilos de li*/
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:576px) {
+
+}  
+
+@media screen and (min-width: 577px) {
+   
+}
+
+@media screen and (min-width: 769px) {
+
+}
+
+@media screen and (min-width: 993px) {
+  
+}
+.body {
+  background-color: greenyellow;
+} 
 
 .logo {
-  width: 150px;
-  object-fit: cover;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
 }
 
-.bg-nav {
-  background-color:coral;
+.nav-link {
+  background-color: coral;
 }
+.bg-nav {
+  background-color: coral;
+}
+
+.row-div-navegable {
+  background-color: coral;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+
+
 
 
 .nav-link {
@@ -32,11 +153,7 @@ body{
   background-color: red;
 }
 
-.section-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .acerca_nosotras {
      font-size: 50px;
@@ -51,8 +168,70 @@ body{
   margin: 25px;
 }
 
-.section-container-productos {
-  display: flex;
+
+
+.lista-redes {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.text-lista-redes {
+  font-size: x-large;
+  font-size: 2rem;
+  font-weight: 200;
+  font-weight: bolder;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+a {
+  color: coral;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: aquamarine;
+  opacity: 0;
+}
+
+.container {
+  
   justify-content: center;
-  align-items: center;
+  margin:auto;
+}
+.body {
+  height: 100%;
+}
+.nav-box {
+  height: 100%;
+  margin: auto;
+  padding: 0%;
+}
+
+.bg-nav {
+  padding: 0%;
+}
+
+.fieldset-box {
+  padding-inline-start: 20px;
+}
+
+.text-copyright {
+  font-size: x-large;
+  font-size: 2rem;
+  font-weight: 200;
+  font-weight: bolder;
+  color: coral;
+  justify-content: center;
+  
+}
+           /*estilos tarjetas*/
+
+.card-bbva {
 }

@@ -1,0 +1,24 @@
+@mixin estilo-listas {
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+  }
+
+@mixin image-cards-catalogos {
+    width: 18rem;
+    height: 15rem;
+    display: flex
+}
+
+@mixin fonts {
+    color: white;
+    font-size: 18rem;
+    font-style: normal;
+    font-family: cursive;
+}
+
+@mixin margins-text-descriptivo {
+    margin-left: 15%;
+}
