@@ -1,65 +1,3 @@
-
-
-
-
-body {
-    background-color: greenyellow;
-  }
-  
-  .container-mt-5 {
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-  }
-  
-  .logo {
-    width: 150px;
-    object-fit: cover;
-  }
-  
-  .bg-nav {
-    background-color: coral;
-  }
-  
-  .nav-link {
-    color: white;
-  
-    &:hover {
-      color: white;
-    }
-  }
-  
-  .navbar-toggler-icon {
-    background-color: red;
-  }
-  
-  .section-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .acerca_nosotras {
-    font-size: 50px;
-    text-decoration: solid;
-    text-decoration: none;
-    margin-left: 400px;
-  }
-  
-  .info_nosotras {
-    font-size: 25px;
-    text-decoration: none;
-    margin: 25px;
-  }
-  
-  .section-container-productos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-
 // imports
 
 @import "./utilities/variables";
@@ -81,3 +19,80 @@ body {
 @import "../views/mercadocircular";
 @import "../views/preguntas";
 @import "../views/productos";
+
+// Media query para pantallas grendes (lg) */
+
+@media (max-width: 1199.98px) {
+
+}
+
+
+// Media query para pantallas medianas (md) */
+
+@media (max-width: 991.98px) {
+
+}
+
+// Media query para pantallas pequeñas (sm) */
+
+@media (max-width: 767.98px) {
+
+}
+
+$color_1: white;
+$background-color_1: greenyellow;
+$background-color_2: coral;
+$background-color_3: red;
+
+body {
+	background-color: $background-color_1;
+}
+.container-mt-5 {
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	width: 200px;
+}
+.logo {
+	width: 150px;
+	object-fit: cover;
+}
+.bg-nav {
+	background-color: $background-color_2;
+}
+.nav-link {
+	color: $color_1;}
+
+  .hover {
+  color:white;}
+
+
+	.navbar-toggler-icon {
+		background-color: $background-color_3;
+	}
+
+.section-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.acerca_nosotras {
+	font-size: 50px;
+	text-decoration: solid;
+	text-decoration: none;
+	margin-left: 400px;
+}
+.info_nosotras {
+	font-size: 25px;
+	text-decoration: none;
+	margin: 25px;
+}
+.section-container-productos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lista-redes{
+  @extend.lista-redes;
+}

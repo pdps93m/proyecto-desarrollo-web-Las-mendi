@@ -1,7 +1,9 @@
 /* Estilos de body */
 
 body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: greenyellow;
+  font-style: italic;
 }
 
 
@@ -9,37 +11,51 @@ body{
 
 /* Estilos nav */
 .nav {
- align-items: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+ 
 }
 
 .navbar-expand-lg {
+  display:block;
+  font-size: medium;
+  font-weight: bolder;
+  font-size: 20px;
 
 }
 .navbar{
-  align-items: none;
-
-}
-
-.container {
-
-}
-
-.navbar-brand {
-
+  display: block;
 }
 
 /* Fin estilos de nav*/
+
+
+
 
 /* Estilos de div */
 
 .container-fluid {
   align-self:none;
+}
+
+.nav-link {
+
+}
+
    
+
+   /* Estilos h */
+
+   .card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
    }
-
    
-
-   /* Estilos h1 */
+   .card-text {
+    font-style:italic;
+    font-weight: lighter;
+   }
 
    /* Fin de estilos h1 */
 
@@ -52,7 +68,12 @@ body{
    /* Fin de estilos h3 */
 
    /*Estilos de footer*/
+   footer {
+    align-items:center;
+    justify-content:center;
+   }
 
+   
    /* Fin estilos de footer*/
 
    /* Estilos de p */
@@ -60,12 +81,33 @@ body{
    /* Fin estilos de p */
 
    /* Estios de ul */
+   
+   ul {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: greenyellow;
+    font-style: italic;
+  }
+
+  li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+   
+
+   
 
    /* Estilos section */
 
    /* Fin estilo section */
 
    /* Estilo de fieldset */
+
+   footer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+   }
 
    /* Fin estilo fieldset */
 
@@ -149,9 +191,6 @@ body{
   color: white;
 }
 
-.navbar-toggler-icon {
-  background-color: red;
-}
 
 
 
@@ -168,40 +207,38 @@ body{
   margin: 25px;
 }
 
-
-
 .lista-redes {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.text-lista-redes {
   font-size: x-large;
   font-size: 2rem;
   font-weight: 200;
   font-weight: bolder;
+  list-style: none;
+  list-style-type:none;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 li {
-  list-style-type: none;
+  @extend.lista-redes;
 
 }
 
 a {
-  color: coral;
-}
-
-a:visited {
-  color: white;
+  color: coral
 }
 
 a:hover {
-  color: aquamarine;
+  color: white;
   opacity: 0;
+  
 }
 
 .container {
-  
+  align-self: center;
   justify-content: center;
   margin:auto;
 }
@@ -233,5 +270,3 @@ a:hover {
 }
            /*estilos tarjetas*/
 
-.card-bbva {
-}
